@@ -1,0 +1,146 @@
+a {
+    text-decoration: none;
+    line-height: 4;
+    color: #07b2b5;
+    font-weight: bold;
+}
+
+nav {
+    width: 30%;
+}
+
+section {
+    width: 70%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    background-image:url(files/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:550px;
+}
+
+legend {
+    color: #07b2b5;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 5px 4px 3px rgb(252,
+    250, 249);
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*ajout.html*/
+form {
+    border-radius: 5px;
+    padding: 10px;
+    width: 350px;
+    height: 400px;
+}
+
+fieldset {
+    border: none;
+    background-image:
+        url(files/ground.jpg);
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 0 10px;
+    margin: auto;
+}
+
+* {
+    line-height: 1.7;
+}
+
+header,
+footer {
+    background-image:
+        url(files/ground.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 80px;
+}
+
+#logo {
+
+    height: 100%;
+}
+
+h1 {
+    display: inline-block;
+    color: #07b2b5;
+    transition: 4s;
+}
+
+h1:hover {
+    transform: translate(500px, 0);
+    color: #eea206;
+}
+
+ul {
+
+    list-style: none;
+}
+
+.input {
+    margin: 5px;
+    border-radius: 10px;
+    width: 95%;
+    text-align: center;
+    font-size: 15px;
+}
+
+select {
+    height: 33px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 97%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.element {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+#boutton {
+    text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: black;
+    color: white;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 97%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bt:hover {
+    background-color: white;
+    color: black;
+}
+p{
+    color: aquamarine;
+    font-family: cursive;
+}
+
+table,td,tr,th{
+    border: solid black 3px;
+}

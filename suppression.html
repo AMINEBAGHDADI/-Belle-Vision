@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="controles.js"></script>
+</head>
+<body>
+    <body class="body">
+        <form action="suppression.php" method="post" onsubmit="return verif2()">
+          <fieldset>
+            <legend>suppression d'un élève:</legend>
+            <p>Veuilliez entre l'indentifiant de l'eleve ou bien son nom et prenom</p>
+            <input class="input" type="text" name="id" id="id2" placeholder="Identifiant Eleve" />
+            <input type="text" class="input" id="np2" name="np" placeholder="Nom & prénom" />
+            
+            <div id="boutton">
+              <input type="submit" value="S'inscrire" class="bt" />
+              <input type="reset" value="Annuler" class="bt" />
+            </div>
+          </fieldset>
+        </form>
+</body>
+</html>

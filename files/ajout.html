@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" />
+    <title>inscription</title>
+    <script src="controlebis.js"></script>
+  </head>
+  <body class="body">
+    <form id="form" action="" method="post" onsubmit="return verif()">
+      <fieldset id="field">
+        <legend>Profil:</legend>
+        <div class="element">
+          <label for="M" class="label margin">Genre</label>
+          <input type="radio" id="M" name="genre" value="M" />Masculin
+          <input type="radio" id="F" name="genre" value="F" />Feminin
+        </div>
+        <input type="text" class="input" placeholder="Nom & Prénom" id="np" />
+        <input
+          type="text"
+          id="tel"
+          name="tel"
+          class="input"
+          placeholder="Tel parent"
+        />
+        <input
+          type="text"
+          id="adr"
+          name="adr"
+          class="input"
+          placeholder="Adresse"
+        />
+        <div id="boutton">
+          <input type="submit" value="S'inscrire" class="bt" />
+          <input type="reset" value="Annuler" class="bt" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

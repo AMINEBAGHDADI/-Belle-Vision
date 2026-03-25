@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>inscription</title>
+  <script src="controles.js"></script>
+</head>
+
+<body class="body">
+  <form action="ajout.php" method="post" onsubmit="return verif()">
+    <fieldset>
+      <legend>Ajout d'un élève:</legend>
+      <input class="input" type="text" name="id" id="id" placeholder="Identifiant Eleve" />
+      <input type="text" class="input" id="np" name="np" placeholder="Nom & prénom" />
+      <input class="input" type="date" name="dn" id="dn" placeholder="Date de Naissance" />
+      <div class="element">
+        <input type="radio" name="genre" id="m" value="M" checked />
+        <label for="m">Masculin</label>
+        <input type="radio" name="genre" id="f" value="F" />
+        <label for="f">Feminin</label>
+      </div>
+      <input type="text" id="tel" name="tel" class="input" placeholder="Tel parent" />
+      <input type="text" id="adr" name="adr" class="input" placeholder="Adresse" />
+      <div id="boutton">
+        <input type="submit" value="S'inscrire" class="bt" />
+        <input type="reset" value="Annuler" class="bt" />
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>
